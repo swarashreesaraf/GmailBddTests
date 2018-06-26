@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Test login with valid credentials",
+        "description": "",
+        "id": "this-is-a-login-feature;test-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5625869548,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the login page",
+            "match": {
+              "location": "LoginSteps.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7243334670,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters valid username and password",
+            "match": {
+              "location": "LoginSteps.user_enters_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11069431355,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigated to the home page of gmail",
+            "match": {
+              "location": "LoginSteps.user_navigated_to_the_home_page_of_gmail()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This is a login feature",
+    "description": "",
+    "id": "this-is-a-login-feature",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
